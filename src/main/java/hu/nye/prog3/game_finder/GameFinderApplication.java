@@ -10,4 +10,5 @@ public class GameFinderApplication {
 		SpringApplication.run(GameFinderApplication.class, args);
 	}
 
+
 }
