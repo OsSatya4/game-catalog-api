@@ -18,5 +18,6 @@ public class Category {
     @Column(unique = true, nullable = false)
     private String name;
 
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
     private List<Game> games;
 }
